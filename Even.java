@@ -1,14 +1,15 @@
 package whileloop;
 
-public class Series10 {
+public class Even {
 	public static void main(String agrs[])
 	{
 		int i=1;
-		while(i<=10)
+		while(i<=100)
 		{
-			
-			System.out.println(i*10);
-		    
+			if(i%2==0) 
+			{
+			System.out.println(i);
+		    }
 			i++;
 		}
     }

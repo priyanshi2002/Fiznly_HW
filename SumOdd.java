@@ -1,18 +1,19 @@
 package whileloop;
 
-public class CountOdd {
+public class SumOdd {
 	public static void main(String agrs[])
 	{
-		int i=1,count=0;
-		
-		while(i<=25)
+		int i=1,odd=0;
+		while(i!=50)
 		{
 			if(i%2!=0) 
 			{
-			count++;
+			odd=odd+i;
 		    }
 			i++;
 		}
-		System.out.println(count);
-		}
+		
+				System.out.println(odd);
+			
+    }
 }

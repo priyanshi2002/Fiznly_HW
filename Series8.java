@@ -1,14 +1,15 @@
-package forloops;
+package whileloop;
 
 public class Series8 {
 	public static void main(String agrs[])
 	{
-		
-		for(int i=1 ; i<= 10 ; i++)
+		int i=1;
+		while(i!=11)
 		{
-			System.out.println(8*i);
 			
+			System.out.println(i*8);
+		    
+			i++;
 		}
-		
     }
 }

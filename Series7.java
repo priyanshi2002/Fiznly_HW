@@ -1,14 +1,15 @@
-package forloops;
+package whileloop;
 
 public class Series7 {
 	public static void main(String agrs[])
 	{
-		
-		for(int i=1 ; i<= 10 ; i++)
+		int i=1;
+		while(i<=10)
 		{
-			System.out.println(7*i);
 			
+			System.out.println(i*7);
+		    
+			i++;
 		}
-		
     }
 }

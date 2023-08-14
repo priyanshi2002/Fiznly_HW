@@ -1,16 +1,19 @@
 package whileloop;
 
-public class Odd {
+public class SumEven {
 	public static void main(String agrs[])
 	{
-		int i=1;
-		while(i<=100)
+		int i=1,even=0;
+		while(i<=50)
 		{
 			if(i%2==0) 
 			{
-			System.out.println(i);
+				even=even+i;
 		    }
 			i++;
 		}
+		
+				System.out.println(even);
+			
     }
 }

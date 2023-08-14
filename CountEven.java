@@ -1,17 +1,18 @@
-package forloops;
+package whileloop;
 
 public class CountEven {
 	public static void main(String agrs[])
 	{
-		int even=0;
-	      for(int i=1 ; i<=25 ; i++)
-	      {
-	    	if(i%2==0)
-	    	{
-	    		 even++;
-	       	    
-	    	}
-	      }
-	      System.out.println("Even: " + even);
-    }
+		int i=1,count=0;
+		
+		while(i<=25)
+		{
+			if(i%2==0) 
+			{
+			count++;
+		    }
+			i++;
+		}
+		System.out.println(count);
+		}
 }

@@ -1,14 +1,14 @@
-package doWhileLoop;
+package whileloop;
 
 public class Square {
 	public static void main(String agrs[])
 	{
 		int i=1;
-		do {
-			
+		while(i<=10)
+		{
 			System.out.println(i*i);
-		i++;
-	}while(i<=10);
+			i++;
+		}
 		
-}
+    }
 }

@@ -1,17 +1,19 @@
-package forloops;
+package whileloop;
 
 public class Series {
 	public static void main(String agrs[])
 	{
-		
-		for(int i=1 ; i<= 10 ; i++)
+		int i=1;
+		while(i<=6)
 		{
-			if(i%2==0)
-			{
-			  System.out.println(-i);
-        }else {
-			System.out.println(i);
+			System.out.print(i+" ");
+			i++;
 		}
+		int n=4;
+		while(n>=0)
+		{
+			System.out.print(n+" ");
+			n--;
 		}
-}
+    }
 }

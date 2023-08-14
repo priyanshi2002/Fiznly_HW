@@ -1,15 +1,15 @@
 package whileloop;
 
-public class Series10 {
+public class Negative {
 	public static void main(String agrs[])
 	{
-		int i=1;
-		while(i<=10)
+		int i=-45;
+		while(i<=45)
 		{
-			
-			System.out.println(i*10);
-		    
+			System.out.println(i);	
 			i++;
 		}
+		
+			
     }
 }
